@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      table, td, th {
+        border: solid black 1px;
+        border-collapse: collapse;
+      }
+
+      .header {
+        text-align: center;
+        background-color: #90abad;
+        font-weight: bold;
+        font-size: x-large;
+      }
+
+      .first_column {
+        font-weight: bold;
+        font-size: large;
+      }
+
+      table {
+        margin: auto;
+      }
+
+      #title {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  
+  <body>
+    <h1 id="title">Mardown Cheat Sheet</h1>
+
+    <table>
+      <tr class="header">
+        <th>Syntax</th>
+        <th>MarkDown</th>
+        <th>Render</th>
+      </tr>
+
+      <!--Heading syntax-->
+      <tr>
+        <td class="first_column">Heading</td>
+        <td>
+          <pre># This is Heading 1</pre>
+          <pre>## This is Heading 2</pre>
+          <pre>### This is Heading 3</pre>
+        </td>
+        <td>
+          <h1>This is Heading 1</h1>
+          <h2>This is Heading 2</h2>
+          <h3>This is Heading 3</h3>
+        </td>
+      </tr>
+
+      <!--Bold syntax-->
+      <tr>
+        <td class="first_column">Bold</td>
+        <td><pre>This text is **bold**</pre></td>
+        <td>This text is <strong>bold</strong></td>
+      </tr>
+
+      <!--Italic syntax-->
+      <tr>
+        <td class="first_column">Italic</td>
+        <td><pre>This text is *italic*</pre></td>
+        <td>This text is <i>italic</i></td>
+      </tr>
+
+      <!--Strike through syntax-->
+      <tr>
+        <td class="first_column">Strikethrough</td>
+        <td><pre>~~This text is strikethrough~~</pre></td>
+        <td><s>This text is strikethrough</s></td>
+      </tr>
+
+      <!--Ordered list syntax-->
+      <tr>
+        <td class="first_column">Ordered list</td>
+        <td>
+          <pre>1. First item</pre>
+          <pre>2. Second item</pre>
+          <pre>3. Third item</pre>
+        </td>
+        <td>
+          <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ol>
+        </td>
+        
+      </tr>
+
+      <!--Unordered list syntax-->
+      <tr>
+        <td class="first_column">Unordered list</td>
+        <td>
+          <pre>- First item</pre>
+          <pre>- Second item</pre>
+          <pre>- Third item</pre>
+        </td>
+        <td>
+          <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!--Definition list syntax-->
+      <tr>
+        <td class="first_column">Definition list</td>
+        <td><pre>
+term
+: definition
+        </pre></td>
+        <td>
+          <dl>
+            <dt>Term</dt>
+            <dd>Definition</dd>
+          </dl>
+        </td>
+      </tr>
+
+      <!--Single line of code syntax-->
+      <tr>
+        <td class="first_column">Line of Code</td>
+        <td><pre>`void doSomething();`</pre></td>
+        <td><code>void doSomething();</code></td>
+      </tr>
+
+      <!--Link syntax-->
+      <tr>
+        <td class="first_column">Link</td>
+        <td><pre>[Search Google](https://www.google.com)</pre></td>
+        <td><a href="https://google.com">Search Google</a></td>
+      </tr>
+
+
+      <!--Image syntax-->
+      <td class="first_column">Image</td>
+      <td><pre>![alt text](image.jpg)</pre></td>
+      <td><img src="image.jpg" alt="alt text"></td>
+
+      <!--Table syntax-->
+      <tr>
+        <td class="first_column">Table</td>
+        <td>
+          <pre>
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+          </pre>
+        </td>
+        <td><img src="table.jpg"></td>
+      </tr>
+
+      <!--Code block syntax-->
+      <tr>
+        <td class="first_column">Code Block</td>
+        <td>
+          <pre>
+```
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+```
+          </pre>
+        </td>
+        <td>
+          <pre>
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+          </pre>
+        </td>
+      </tr>
+
+      <!--Task list syntax-->
+      <tr>
+        <td class="first_column">Task List</td>
+        <td>
+          <pre>
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+          </pre>
+        </td>
+        <td><img src="task_list.jpg"></td>
+      </tr>
+
+      <!--Highlight syntax-->
+      <tr>
+        <td class="first_column">Highlight</td>
+        <td><pre>I need to highlight these ==very important words==.</pre></td>
+        <td>I need to highlight these <mark>very important words</mark>.</td>
+      </tr>
+
+      <!--Subscript syntax-->
+      <tr>
+        <td class="first_column">Subscript</td>
+        <td><pre>H~2~O</pre></td>
+        <td>H<sub>2</sub>O</td>
+      </tr>
+
+      <!--Superscript syntax-->
+      <tr>
+        <td class="first_column">Superscript</td>
+        <td><pre>X^2^ + Y^2^</pre></td>
+        <td>X<sup>2</sup> + Y<sup>2</sup></sub></td>
+
+      </tr>
+
+      <!--Horizontal Ruler syntax-->
+      <tr>
+        <td class="first_column">Horizontal Ruler</td>
+        <td><pre>---</pre></td>
+        <td><hr></td>
+      </tr>
+
+      <!--Block quote syntax-->
+      <tr>
+        <td class="first_column">Blockquote</td>
+        <td><pre>> A blockquote</pre></td>
+        <td><blockquote>A blockquote</blockquote></td>
+      </tr>
+
+    </table>
+  
+  
+  </body>
+</html>
