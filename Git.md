@@ -8,3 +8,4 @@
   * Assump file unchange: `git update-index --assume-unchanged [files]`
   * Undo: `git update-index --no-assume-unchanged [files]`
   * List of dirs/files that are assumped unchanged: `git ls-files -v|grep '^h'`
+* Checkout to a specific tag: `git checkout tags/<tag> -b <branch>`
