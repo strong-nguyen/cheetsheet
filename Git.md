@@ -9,3 +9,9 @@
   * Undo: `git update-index --no-assume-unchanged [files]`
   * List of dirs/files that are assumped unchanged: `git ls-files -v|grep '^h'`
 * Checkout to a specific tag: `git checkout tags/<tag> -b <branch>`
+* Fetch a remote branch to local:
+```
+git fetch origin <branch_name>
+git checkout -b branch_name FETCH_HEAD
+```
+* Show what has changed: `git whatchanged`
