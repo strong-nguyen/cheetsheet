@@ -15,3 +15,4 @@ git fetch origin <branch_name>
 git checkout -b branch_name FETCH_HEAD
 ```
 * Show what has changed: `git whatchanged`
+* Change branch name: `git branch -m new_name`
