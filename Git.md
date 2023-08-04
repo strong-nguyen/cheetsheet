@@ -21,3 +21,5 @@ git checkout -b branch_name FETCH_HEAD
 * Show what has changed: `git whatchanged`
 * Change branch name: `git branch -m new_name`
 * Git pull/fetch a remote branch_name from other local branch: `git fetch origin branch_name:branch_name`
+
+* [Git merge with strategy](https://git-scm.com/docs/merge-strategies): `git merge -s strategy_name -X<option> other_branch`
