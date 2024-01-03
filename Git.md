@@ -23,3 +23,4 @@ git checkout -b branch_name FETCH_HEAD
 * Git pull/fetch a remote branch_name from other local branch: `git fetch origin branch_name:branch_name`
 
 * [Git merge with strategy](https://git-scm.com/docs/merge-strategies): `git merge -s strategy_name -X<option> other_branch`
+* In conflict state, if we want to use the theirs/ours version for a file: `git checkout --theirs/--ours file`
